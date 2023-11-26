@@ -1,24 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import showreel from './content/showreel.mp4';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="Opening">
+
+        <video className='BGVideo' src={showreel} muted autoPlay loop/>
+
+        <div className="titleText">
+
+          <p className="topText">Oscar</p>
+          <p className="bottomText">Ratcliffe</p>
+          
+        </div>
+
+      </div>
+      
+
+       <div className="Showreel">
+          <h1>Showreel</h1>
+       </div>
     </div>
   );
 }
