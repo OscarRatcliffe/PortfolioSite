@@ -31,7 +31,7 @@ body {
   @media screen and (orientation:portrait) { //Partical screen video
     
     .Opening {
-      height: calc(100vw * 0.45); //Dynamically set based on 
+      height: calc(100vw * 0.56); //Dynamically set based on 
     }
 
   }
@@ -72,7 +72,7 @@ body {
 
   }
 
-  @media screen and (orientation:landscape) { //Full screen video
+  @media screen and (orientation:landscape) { 
     
     .lowercontent {
       width: 70vw;
@@ -82,7 +82,7 @@ body {
 
   }
 
-  @media screen and (orientation:portrait) { //Full screen video
+  @media screen and (orientation:portrait) { 
     
     .lowercontent {
       width: 90vw;
