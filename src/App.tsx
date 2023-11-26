@@ -18,10 +18,21 @@ function App() {
 
       </div>
       
+      <div className="lowercontent">
 
-       <div className="Showreel">
-          <h1>Showreel</h1>
-       </div>
+            <div className="Showreel">
+                <h1>Showreel</h1>
+                  <video className='ShowreelVideo' src={showreel} controls/>
+            </div>
+
+            <div className="Seperator" />
+
+            <div className="AboutMe">
+                <h1>About Me</h1>
+                  
+            </div>
+      </div>
+
     </div>
   );
 }
